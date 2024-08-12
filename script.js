@@ -9,3 +9,9 @@ contactForm.addEventListener('submit', (event) => {
         alert('fill in the blank space');
     }
 });
+
+
+AOS.init({
+  duration: 1000,
+  once: true,
+});
