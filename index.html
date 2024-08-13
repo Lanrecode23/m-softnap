@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -22,39 +24,62 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Features
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <ul class="dropdown-menu shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                            <li style="letter-spacing: 1px;"><a class="dropdown-item" href="#"><img
+                                        src="./images/icon-todo.svg" alt="" class="img-fluid "
+                                        style="margin-right: 8px;">Todo List</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li style="letter-spacing: 1px;"><a class="dropdown-item" href="#"><img
+                                        src="./images/icon-calendar.svg" alt="" style="margin-right: 8px;">Calender</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li style="letter-spacing: 1px;"><a class="dropdown-item" href="#"><img
+                                        src="./images/icon-reminders.svg" alt=""
+                                        style="margin-right: 8px;">Reminders</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li style="letter-spacing: 1px;"><a class="dropdown-item" href="#"><img
+                                        src="./images/icon-planning.svg" alt="" style="margin-right: 8px;">Planning</a>
+                            </li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Company
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <ul class="dropdown-menu shadow-sm  mb-5 bg-body-tertiary rounded">
+                            <li style="letter-spacing: 1px;" class="text-center"><a class="dropdown-item"
+                                    href="#">History</a> </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li style="letter-spacing: 1px;" class="text-center"><a class="dropdown-item" href="#">Out
+                                    Team</a></li>
+                            <li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li style="letter-spacing: 1px;" class="text-center"><a class="dropdown-item"
+                                    href="#">Blog</a></li>
+                            <li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Careers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -177,7 +202,7 @@
             </div>
             <div class="col-md-6">
                 <div class="hero-image">
-                    <img src="./images/image-hero-desktop.png" alt="" class="img-fluid w-75 h-25">
+                    <img src="./images/image-hero-desktop.png" alt="" class="img-fluid w-75">
                 </div>
             </div>
         </div>
@@ -220,37 +245,39 @@
         </div>
     </div>
     <!-- about section -->
-    <div class="container p-5 bg-body-quinary">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="about-image">
+    <section id="about">
+        <div class="container p-5 bg-body-quinary">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-image">
 
-                    <dotlottie-player src="https://lottie.host/0f62c89e-6c9d-4888-a3e6-9896375bcc94/020MCmVKqd.json"
-                        background="transparent" speed="1" style="width: 80rem; height: 400px;" class="img-fluid" loop
-                        autoplay></dotlottie-player>
+                        <dotlottie-player src="https://lottie.host/0f62c89e-6c9d-4888-a3e6-9896375bcc94/020MCmVKqd.json"
+                            background="transparent" speed="1" style="width: 80rem; height: 400px;" class="img-fluid"
+                            loop autoplay></dotlottie-player>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="about-content mt-lg-2 mt-sm-2">
-                    <h1>About us</h1>
-                    <p data-aos="zoom-in">
-                        At Snap, we believe that great work knows no boundaries. In an increasingly connected world,
-                        we empower teams to collaborate seamlessly, no matter where they are. Our mission is to
-                        break down the barriers of distance and bring teams together through innovative tools and
-                        practices that streamline processes, foster meaningful rituals, and elevate productivity to
-                        new heights.
+                <div class="col-md-6">
+                    <div class="about-content mt-lg-2 mt-sm-2">
+                        <h1>About us</h1>
+                        <p data-aos="zoom-in">
+                            At Snap, we believe that great work knows no boundaries. In an increasingly connected world,
+                            we empower teams to collaborate seamlessly, no matter where they are. Our mission is to
+                            break down the barriers of distance and bring teams together through innovative tools and
+                            practices that streamline processes, foster meaningful rituals, and elevate productivity to
+                            new heights.
 
-                        We understand that successful remote work requires more than just technology—it demands a
-                        culture of trust, communication, and collaboration. That’s why we’ve crafted solutions
-                        designed to keep your team in sync, whether you're across the hall or across the globe. From
-                        project management to communication tools..
+                            We understand that successful remote work requires more than just technology—it demands a
+                            culture of trust, communication, and collaboration. That’s why we’ve crafted solutions
+                            designed to keep your team in sync, whether you're across the hall or across the globe. From
+                            project management to communication tools..
 
-                        Let’s make remote work, work—for everyone.
-                    </p>
+                            Let’s make remote work, work—for everyone.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- contact us section -->
     <div class="container-fluid bg-body-tertiary mt-5">
         <div class="row d-flex justify-content-center align-items-center">
