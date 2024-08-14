@@ -269,4 +269,8 @@ body {
     .about-image{
         margin-top: -5em!important;
     }
+      .modal {
+          display: block !important; 
+      }
+  
   }
