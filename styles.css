@@ -3,7 +3,6 @@
 body {
     font-family: "Teko", sans-serif;
 }
-
 .hero-content h1 {
     margin-top: 2em !important;
     font-size: 60px !important;
@@ -248,7 +247,7 @@ body {
   @media screen and (max-width: 576px){
     .hero-content h1{
         margin-top: 0.8em !important;
-        font-size: 50px !important;
+        font-size: 47px !important;
     }
     .snap{
         padding-left: 0em !important;
@@ -274,7 +273,7 @@ body {
         margin-top: -5em!important;
     }
     .snap{
-      width: 5.5rem !important;
+      width: 9rem !important;
     }
   
   }
